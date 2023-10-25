@@ -1,0 +1,59 @@
+<?php
+date_default_timezone_set("Asia/Bangkok");
+?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Form Registration</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<form class="" action="koneksi.php" method="post">
+	
+    <label for="nama">Nama Lengkap</label>
+    <input type="text" name="nama" autocomplete="off"><br>
+	
+	<label for="nama">NIK</label>
+    <input type="text" name="NIK" autocomplete="off"><br>
+
+    <label for="tempat_lahir">Tempat Lahir</label>
+    <input type="text" name="tempatlahir" autocomplete="off"><br>
+
+    <label for="tanggal_lahir">Tanggal Lahir</label>
+    <input type="date" name="tanggallahir"><br>
+	
+	<label for="email">Alamat</label>
+    <input type="text" name="alamat" autocomplete="off"><br>
+	
+	<label for="email">Email</label>
+    <input type="email" name="email" autocomplete="off"><br>
+	
+	<label for="email">Pekerjaan</label>
+    <input type="text" name="pekerjaan" autocomplete="off"><br>
+
+    <label for="jeniskelamin">Jenis Kelamin</label>
+    <input type="radio" name="jeniskelamin" value="Pria">Pria
+    <input type="radio" name="jeniskelamin" value="Wanita">Wanita<br><br>
+
+    <label for="agama">Agama</label>
+    <select name="agama">
+        <option value="Islam">Islam</option>
+        <option value="Kristen">Kristen</option>
+        <option value="Buddha">Buddha</option>
+        <option value="Hindu">Hindu</option>
+        <option value="Konghucu">Konghucu</option>
+    </select><br><br>
+
+    <label for="jeniskelamin">Status Perkawinan</label>
+    <input type="radio" name="jeniskelamin" value="Pria">Kawin
+    <input type="radio" name="jeniskelamin" value="Wanita">Belum Kawin<br><br>
+
+    <label for="komentar">Tambahan</label>
+    <textarea name="komentar" rows="8" cols="80"></textarea><br>
+
+    <button type="submit" name="submit" value="<?php echo date("h:i:sa"); ?>Submit</button>
+</style>
+</form>
+</body>
+</html>
