@@ -8,6 +8,7 @@ include 'header.php';
 <meta charset="utf-8">
 <title>Form Registration</title>
 <link rel="stylesheet" href="styles.css">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
 function validateForm() {
     var nama = document.forms["registrationForm"]["nama"].value;
@@ -89,6 +90,8 @@ function validateForm() {
 	<label for="jenis_kelamin">Jenis Kelamin</label>
     <input type="radio" name="jenis_kelamin" value="Pria" required>Pria
     <input type="radio" name="jenis_kelamin" value="Wanita" required>Wanita<br><br>
+	
+	<div class="g-recaptcha" data-sitekey="6Ld4edsoAAAAANj-6gu32w0F-JKU9E-IC4Pet4-V"></div> </br>
 	
 	<button type="submit" name="submit" value="<?php echo date("h:i:sa"); ?>">Submit</button>
 </form>

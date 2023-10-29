@@ -21,7 +21,7 @@ if (isset($_SESSION['username'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login | InGa</title>
-    <link rel="shortcut icon" href="asset_user/img/logo-campur.png" type="image/x-icon">
+    <link rel="shortcut icon" href="asset_user/img/logo-fix.png" type="image/x-icon">
 
     <!-- Font Icon -->
     <link rel="stylesheet" href="asset_login/fonts/material-icon/css/material-design-iconic-font.min.css">
@@ -36,15 +36,16 @@ if (isset($_SESSION['username'])) {
         <div class="container position-center">
             <div class="signin-content">
                 <div class="signin-image">
-                    <figure><img src="asset_login/images/20944201.jpg" alt="sing up image"></figure>
+                    <figure><img src="asset_login/images/5064270.jpg" alt="sing up image"></figure>
                 </div>
 
                 <div class="signin-form" style="margin-top: 2rem;">
                     <div class="display-flex-center">
-                        <img src="asset_user/img/logo-campur.png" alt="" width="20%">
                         <h4>
                             Sistem Informasi Manajemen <br>
-                            Kependudukan dan Bantuan Sosial
+                            Kependudukan dan Bantuan Sosial<br>
+							RT. 06 Tanjung Tengah <br>
+							Penajam Paser Utara
                         </h4>
                     </div>
                     <form action="" method="POST" class="register-form" style="margin-top: 2rem;" id="login-form">

@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Administrator | KBS</title>
+    <title>Administrator | InGa</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="<?= $base_url; ?>asset_user/img/logo-campur.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= $base_url; ?>asset_user/img/logo-fix.png" type="image/x-icon">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="<?= $base_url; ?>plugins/fontawesome-free/css/all.min.css">

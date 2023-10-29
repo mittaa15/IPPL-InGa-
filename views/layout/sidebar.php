@@ -68,15 +68,6 @@
          </li>
 		 
          <li class="nav-item has-treeview">
-           <a href="<?= $base_url; ?>data_kependudukan" class="nav-link">
-             <i class="nav-icon fas fa-users"></i>
-             <p>
-               Data Kependudukan
-             </p>
-           </a>
-         </li>
-
-         <li class="nav-item has-treeview">
            <a href="<?= $base_url; ?>control_panel" class="nav-link">
              <i class="nav-icon fas fa-cog"></i>
              <p>

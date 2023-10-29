@@ -5,7 +5,7 @@
         <div class="logo">
             <h1 class="text-light">
                 <a href="index.html">
-                    <img src="<?= $base_url; ?>asset_user/img/logo-putih.png" alt="logo">
+                    <img src="<?= $base_url; ?>asset_user/img/logo-fix.png" alt="logo">
                     <small>InGa</small>
                 </a>
             </h1>

@@ -7,7 +7,7 @@
   <title>InGa - Informasi Warga</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-  <link rel="shortcut icon" href="<?= $base_url; ?>asset_user/img/logo-campur.png" type="image/x-icon">
+  <link rel="shortcut icon" href="<?= $base_url; ?>asset_user/img/logo-fix.png" type="image/x-icon">
 
   <!-- Favicons -->
   <!-- <link href="assets/img/favicon.png" rel="icon"> -->
